@@ -1,0 +1,49 @@
+/*селекторы в css*/
+/*селектор для всех элементов в html*/
+*{
+    color: rgb(0, 215, 57);
+    background-color: rgb(255, 255, 255);
+}
+/*селектор по тегу*/
+div {
+    background-color: rgb(2, 0, 4);
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    /* margin: 50px; это внешний отступ */
+    /* margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 15; */
+/* margin: 10px 20px; */
+margin: 5px 10px 20px;
+/* padding: 10px 20px 30px 40px; */
+text-align: center;
+}
+
+/* селектор по классу */
+.block {
+    background-color: aqua;
+}
+/* ! important ltkftn dct ukfdysv */
+/* селектор по id */
+#block-1 {
+    background-color: blanchedalmond;
+}
+/* ======================================================================================== */
+a{
+    text-decoration: none;
+    /* text-transform: uppercase; можно делать текст заглавными буквами и мелкими */
+}
+.inp {
+    padding: 5px;
+    border: 1px solid gray; 
+    border-radius: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.container { 
+    width: 100px; 
+    height: 100px; 
+    background-color: green; 
+    margin: 10px; 
+}

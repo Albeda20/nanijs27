@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box;
+    font-family: "Gothic A1", sans-serif; */
+  }
+  header {
+position: relative;
+width: 1517px;
+height: 2916px;
+background-color: black;
+
+  }
+  .links a {
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+  }
+  .links {
+    width: 382px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .container {
+    max-width: 1350px;
+    margin: 0 auto;
+  }
+  
+  nav {
+    display: flex;
+    padding: 30px 0;
+  }

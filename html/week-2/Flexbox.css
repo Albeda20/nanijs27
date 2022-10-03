@@ -1,0 +1,110 @@
+div { 
+    background-color: red; 
+    width: 100px; 
+    height: 100px; 
+    color: white; 
+    margin: 10px; 
+    font-size: 50px; 
+    text-align: center; 
+} 
+.parent { 
+    background-color: white; 
+    border: 3px solid black; 
+    width: auto; 
+    height: 400px; 
+} 
+ 
+.example-1 { 
+    display: flex; 
+    /* меняет в строчный */ 
+} 
+ 
+.example-2 { 
+    display: flex; 
+    flex-direction: column; 
+    /* fld - меняет в блочный */ 
+} 
+/* fld-  flex-direction; df - display flex*/ 
+ 
+.example-3 { 
+    display: flex; 
+    flex-direction: row; 
+    /* строчный слева на право */ 
+} 
+.example-4{ 
+    display: flex; 
+    flex-direction: row-reverse; 
+    /* справа на лево и меняет блоки местами*/ 
+} 
+.example-5 { 
+    display: flex; 
+    flex-direction: column-reverse; 
+    /* снизу в верх */ 
+} 
+.example-6{ 
+    display: flex; 
+    flex-wrap: wrap; 
+    /* Свойство CSS flex-wrap задаёт правила вывода flex-элементов — в одну строку или в несколько, с переносом блоков. Если перенос разрешён, то возможно резкое изменение направления, в вы занимаете блоки. */ 
+} 
+.example-7 { 
+    display: flex; 
+    justify-content: space-between; 
+    /*  <!-- расставляет блоки в строку по оси x, с определенным для него отступом --> */ 
+} 
+.example-8 { 
+    display: flex; 
+    justify-content: space-around; 
+    /* Расстояние между каждой парой соседних элементов одинаково. Пустое пространство перед первым и после последнего элемента равно половине пространства между каждой парой соседних элементов. space-around -- пространство вокруг */ 
+} 
+.example-9 { 
+    display: flex; 
+    justify-content: space-evenly; 
+    /* Расстояние между каждой парой соседних элементов, основным начальным краем и первым элементом, а также основным конечным краем и последним элементом абсолютно одинаковы. */ 
+} 
+.example-10 { 
+    display: flex; 
+    justify-content: center; 
+    /* все блоки выравнимаются по центру контейнера */ 
+}
+.example-11 { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+.example-12 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.example-13 {
+    display: flex;
+
+}
+#three{
+    order: -1;
+}
+#fi{
+    order: -2;
+}
+#first{
+    order: 1;
+}
+.example-14{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.example-15 {
+    display: flex;
+    justify-content: center;
+
+}
+.example-16 {
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+}
+#second {
+    align-self: center;
+}

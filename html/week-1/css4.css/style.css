@@ -1,0 +1,62 @@
+#pepe{ 
+    background-color: green; 
+} 
+.heading { 
+    color: red; 
+} 
+#heading-2{ 
+    color: blue; 
+} 
+h3{ 
+    background-color: black; 
+} 
+h4 { 
+    padding: 5px; 
+    border: 3px solid red; 
+    border-radius: 5px; 
+} 
+h5:hover { 
+    background-color: aqua; 
+} 
+ul{ 
+    list-style: square; 
+} 
+p { 
+    color: white; 
+} 
+#tea { 
+    background-color: DarkCyan; 
+    color: white; 
+    margin: 5px 10px 20px; 
+    width: 200px; 
+    height: 30px; 
+    padding: 10px 15px 5px; 
+} 
+ 
+#history { 
+    background-color: CadetBlue; 
+    color: white; 
+    margin: 5px 10px 20px; 
+    width: 290px; 
+    height: 80px; 
+    padding: 10px 15px 5px; 
+} 
+#block2 { 
+    width: 500%; 
+    height: 500%; 
+    background-color: white; 
+} 
+.box { 
+    width: 100px; 
+    height: 100px; 
+    background-color: green; 
+    margin: 10px; 
+    text-transform: none;
+}
+.container li{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border: 1px solid black;
+}
